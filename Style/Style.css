@@ -99,3 +99,29 @@ color: rgb(255, 255, 255);
 background: rgba(13, 19, 33, 0.02);
 padding: 80px 97px;
 }
+.ChangeWorld_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 16px;
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+padding: 48px;
+margin-bottom: 32px;
+}
+.ChangeWorld_div_text{
+    width: 577px;
+}
+.ChangeWorld_text_title{
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+margin-bottom: 16px;
+}
+.btn_learn{
+    box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+
+}

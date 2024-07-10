@@ -125,3 +125,52 @@ border: 1px solid rgb(13, 19, 33);
 opacity: 0.7;
 
 }
+
+/* Inspiration section */
+
+.Inspiration_video_div{
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+padding: 40px;
+
+}
+.Inspiration_video{
+    border-radius: 16px;
+}
+
+/* currentTarget_div */
+.currentTarget_div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.currentTarget_div_text{
+padding: 40px;
+}
+.currentTarget_div_one{
+    border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+}
+.currentTarget_div_two{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.currentTarget_div_three{
+    border-radius: 16px;
+background: rgba(255, 223, 0, 0.05);
+}
+.currentTarget_div_text img{
+margin-bottom: 20px;
+}
+.currentTarget_div_text button{
+border: none;
+background-color: transparent;
+border-bottom: 2px solid var(--btnBgColor);
+cursor: pointer;
+color: rgb(13, 19, 33);
+font-family: var(--mainfamily);
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+}
